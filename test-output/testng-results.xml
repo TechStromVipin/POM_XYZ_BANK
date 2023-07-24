@@ -2,80 +2,80 @@
 <testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-21T16:58:30 IST" name="Suite" finished-at="2023-07-21T17:00:57 IST" duration-ms="146836">
+  <suite started-at="2023-07-24T19:40:08 IST" name="Default suite" finished-at="2023-07-24T19:42:35 IST" duration-ms="146783">
     <groups>
     </groups>
-    <test started-at="2023-07-21T16:58:30 IST" name="Test" finished-at="2023-07-21T17:00:57 IST" duration-ms="146836">
+    <test started-at="2023-07-24T19:40:08 IST" name="Default test" finished-at="2023-07-24T19:42:35 IST" duration-ms="146783">
       <class name="Runner.test_Bank_manager_oprations">
-        <test-method is-config="true" signature="launch_page_verification_started()[pri:0, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T16:58:30 IST" name="launch_page_verification_started" finished-at="2023-07-21T16:58:30 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="launch_page_verification_started()[pri:0, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:40:08 IST" name="launch_page_verification_started" finished-at="2023-07-24T19:40:08 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_page_verification_started -->
-        <test-method signature="test_launch_site()[pri:0, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T16:58:30 IST" name="test_launch_site" description="launching the Browser" finished-at="2023-07-21T16:58:36 IST" duration-ms="5936" status="PASS">
+        <test-method signature="test_launch_site()[pri:0, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:40:08 IST" name="test_launch_site" description="launching the Browser" finished-at="2023-07-24T19:40:13 IST" duration-ms="4871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_launch_site -->
-        <test-method signature="test_customerLoginbtn()[pri:1, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T16:58:36 IST" name="test_customerLoginbtn" description="Testing customer button" finished-at="2023-07-21T16:58:49 IST" duration-ms="13148" status="PASS">
+        <test-method signature="test_customerLoginbtn()[pri:1, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:40:13 IST" name="test_customerLoginbtn" description="Testing customer button" finished-at="2023-07-24T19:40:26 IST" duration-ms="13145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_customerLoginbtn -->
-        <test-method signature="Test_BankmanagerLoginbtn()[pri:2, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T16:58:49 IST" name="Test_BankmanagerLoginbtn" description="Testing bank manager Login button" finished-at="2023-07-21T16:59:02 IST" duration-ms="13112" status="PASS">
+        <test-method signature="Test_BankmanagerLoginbtn()[pri:2, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:40:26 IST" name="Test_BankmanagerLoginbtn" description="Testing bank manager Login button" finished-at="2023-07-24T19:40:39 IST" duration-ms="13110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_BankmanagerLoginbtn -->
-        <test-method signature="costomer_login_oprations()[pri:3, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T16:59:02 IST" name="costomer_login_oprations" description="Customer Login Oprations Testing" finished-at="2023-07-21T16:59:28 IST" duration-ms="25882" status="PASS">
+        <test-method signature="costomer_login_oprations()[pri:3, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:40:39 IST" name="costomer_login_oprations" description="Customer Login Oprations Testing" finished-at="2023-07-24T19:41:05 IST" duration-ms="25831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- costomer_login_oprations -->
-        <test-method signature="depoit_opration()[pri:4, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T16:59:28 IST" name="depoit_opration" description="verify Deposit opration" finished-at="2023-07-21T16:59:40 IST" duration-ms="12278" status="PASS">
+        <test-method signature="depoit_opration()[pri:4, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:41:05 IST" name="depoit_opration" description="verify Deposit opration" finished-at="2023-07-24T19:41:18 IST" duration-ms="12274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- depoit_opration -->
-        <test-method signature="withdrawl_Opration()[pri:5, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T16:59:40 IST" name="withdrawl_Opration" description="verify Withdrawl oprations sucess" finished-at="2023-07-21T16:59:57 IST" duration-ms="16261" status="PASS">
+        <test-method signature="withdrawl_Opration()[pri:5, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:41:18 IST" name="withdrawl_Opration" description="verify Withdrawl oprations sucess" finished-at="2023-07-24T19:41:34 IST" duration-ms="16272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withdrawl_Opration -->
-        <test-method signature="test_transactions()[pri:6, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T16:59:57 IST" name="test_transactions" description="Test Transactions menu sucessfully Tested" finished-at="2023-07-21T17:00:08 IST" duration-ms="11256" status="PASS">
+        <test-method signature="test_transactions()[pri:6, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:41:34 IST" name="test_transactions" description="Test Transactions menu sucessfully Tested" finished-at="2023-07-24T19:41:45 IST" duration-ms="11272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_transactions -->
-        <test-method signature="Click_on_logout_by_customer()[pri:7, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T17:00:08 IST" name="Click_on_logout_by_customer" description="Customer is logging out" finished-at="2023-07-21T17:00:08 IST" duration-ms="97" status="PASS">
+        <test-method signature="Click_on_logout_by_customer()[pri:7, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:41:45 IST" name="Click_on_logout_by_customer" description="Customer is logging out" finished-at="2023-07-24T19:41:45 IST" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Click_on_logout_by_customer -->
-        <test-method signature="click_bankManagerLogin()[pri:8, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T17:00:08 IST" name="click_bankManagerLogin" description="Bank Manager Opration Testing Started" finished-at="2023-07-21T17:00:08 IST" duration-ms="52" status="PASS">
+        <test-method signature="click_bankManagerLogin()[pri:8, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:41:45 IST" name="click_bankManagerLogin" description="Bank Manager Opration Testing Started" finished-at="2023-07-24T19:41:45 IST" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_bankManagerLogin -->
-        <test-method signature="test_addCustomer()[pri:9, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T17:00:08 IST" name="test_addCustomer" description="Add customer opration testing Started" finished-at="2023-07-21T17:00:24 IST" duration-ms="15452" status="PASS">
+        <test-method signature="test_addCustomer()[pri:9, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:41:45 IST" name="test_addCustomer" description="Add customer opration testing Started" finished-at="2023-07-24T19:42:01 IST" duration-ms="15481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_addCustomer -->
-        <test-method signature="test_addcustomer()[pri:10, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T17:00:24 IST" name="test_addcustomer" description="Test open Account" finished-at="2023-07-21T17:00:29 IST" duration-ms="5277" status="PASS">
+        <test-method signature="test_addcustomer()[pri:10, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:42:01 IST" name="test_addcustomer" description="Test open Account" finished-at="2023-07-24T19:42:06 IST" duration-ms="5295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_addcustomer -->
-        <test-method signature="test_currency()[pri:11, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T17:00:29 IST" name="test_currency" description="Test currency" finished-at="2023-07-21T17:00:32 IST" duration-ms="3206" status="PASS">
+        <test-method signature="test_currency()[pri:11, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:42:06 IST" name="test_currency" description="Test currency" finished-at="2023-07-24T19:42:09 IST" duration-ms="3238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_currency -->
-        <test-method signature="click_process()[pri:12, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T17:00:32 IST" name="click_process" description="click process" finished-at="2023-07-21T17:00:35 IST" duration-ms="3059" status="PASS">
+        <test-method signature="click_process()[pri:12, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:42:09 IST" name="click_process" description="click process" finished-at="2023-07-24T19:42:12 IST" duration-ms="3077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_process -->
-        <test-method signature="click_customers()[pri:13, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T17:00:35 IST" name="click_customers" description="click on customers" finished-at="2023-07-21T17:00:35 IST" duration-ms="77" status="PASS">
+        <test-method signature="click_customers()[pri:13, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:42:12 IST" name="click_customers" description="click on customers" finished-at="2023-07-24T19:42:13 IST" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_customers -->
-        <test-method signature="entercustomer_to_search()[pri:14, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T17:00:35 IST" name="entercustomer_to_search" description="enter customer name" finished-at="2023-07-21T17:00:44 IST" duration-ms="8575" status="PASS">
+        <test-method signature="entercustomer_to_search()[pri:14, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:42:13 IST" name="entercustomer_to_search" description="enter customer name" finished-at="2023-07-24T19:42:22 IST" duration-ms="9447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- entercustomer_to_search -->
-        <test-method is-config="true" signature="launch_page_verification_ended()[pri:0, instance:Runner.test_Bank_manager_oprations@53fb3dab]" started-at="2023-07-21T17:00:44 IST" name="launch_page_verification_ended" finished-at="2023-07-21T17:00:57 IST" duration-ms="13085" status="PASS">
+        <test-method is-config="true" signature="launch_page_verification_ended()[pri:0, instance:Runner.test_Bank_manager_oprations@4a83a74a]" started-at="2023-07-24T19:42:22 IST" name="launch_page_verification_ended" finished-at="2023-07-24T19:42:35 IST" duration-ms="13111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_page_verification_ended -->
       </class> <!-- Runner.test_Bank_manager_oprations -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
