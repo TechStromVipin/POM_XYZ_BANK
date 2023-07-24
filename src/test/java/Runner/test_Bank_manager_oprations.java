@@ -1,11 +1,14 @@
 package Runner;
 
+import java.io.IOException;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 import baking_basePackage.bank_manageroprations;
+import roughwork.writeDataInExcelSheet;
 
 public class test_Bank_manager_oprations extends test_user_logoutOprations {
 
@@ -96,12 +99,16 @@ public class test_Bank_manager_oprations extends test_user_logoutOprations {
 	
 	@Test(description = "enter customer name",priority = 14)
 	
-	public void entercustomer_to_search() throws InterruptedException
+	public void entercustomer_to_search() throws InterruptedException, IOException
 	{
 		 m.click_entercustomer();
 		 m.Click_delete_button();
 		 Thread.sleep(3000);
 		 m.Click_onHOmeBtn();
+		 
+		  writeDataInExcelSheet.UpdateExcel();
+		  System.out.println("Data is updated in Excel sheet");
+		  
 	}
 	
 	
@@ -127,7 +134,7 @@ public class test_Bank_manager_oprations extends test_user_logoutOprations {
 		  
 		  driver.close();
 		  
-		   
+		  
 		  
 		 
 	  }

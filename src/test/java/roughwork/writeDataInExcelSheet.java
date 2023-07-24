@@ -10,9 +10,9 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class writeDataInExcelSheet {
-
-	public static void main(String[] args) throws IOException {
-
+	
+	public static void UpdateExcel() throws IOException
+	{
 		XSSFWorkbook book = new XSSFWorkbook();
 
 		XSSFSheet sheet = book.createSheet("stundent date");
@@ -45,13 +45,16 @@ public class writeDataInExcelSheet {
 		FileOutputStream out = new FileOutputStream(".\\test-output\\excelfiles\\student.xlsx");
 
 		book.write(out);
-
+ 
 		out.close();
 
 		System.out.println("excell sheet writting done");
 
 		// use testoutput as output for creating excels
-
+		
+		
 	}
+	
+	 
 
 }
