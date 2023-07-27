@@ -5,9 +5,14 @@ package Runner;
 
 import static org.testng.Assert.assertEquals;
 
- 
+import java.io.File;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 import BaseBrowser.baseclass;
 import baking_basePackage.launch_page;
@@ -16,12 +21,24 @@ import baking_basePackage.launch_page;
 public class test_launch_page extends BaseBrowser.baseclass {
 
 	launch_page l;
-	 
+    static ExtentHtmlReporter reporter;
+	static ExtentTest test;
+	static ExtentReports extent;
+   
 	 
 	    @BeforeClass
 	    public void launch_page_verification_started()
 	    {
-	    	 System.out.println("Landing page testing is started");
+	    	 
+		       reporter = new ExtentHtmlReporter("test-output"+File.separator+"Extent.html");
+		 	 extent = new ExtentReports();
+		 	extent.attachReporter(reporter);
+		 	
+		 	 System.out.println("Landing page testing is started");
+		    	//Start the Browser
+			 	baseclass.startChrome();
+			 	//baseclass.startEdge();
+		 	
 	    	  
 	    }
 	 
@@ -29,9 +46,8 @@ public class test_launch_page extends BaseBrowser.baseclass {
 	  	 @Test (description="launching the Browser",priority = 0)
 	  	 public void test_launch_site()
 	  	 {
-	  		//Start the Browser
-	 		baseclass.startChrome();
-	 		//baseclass.startEdge();
+	  		 
+	 		 
 	  		
 	  		//verify current Url
 	  		String currenturl= driver.getCurrentUrl();

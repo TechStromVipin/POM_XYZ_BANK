@@ -7,6 +7,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 import baking_basePackage.bank_manageroprations;
 import roughwork.writeDataInExcelSheet;
 
@@ -15,6 +18,10 @@ public class test_Bank_manager_oprations extends test_user_logoutOprations {
 	bank_manageroprations m;
 	 Select s;
 	 Alert a;
+	 static ExtentHtmlReporter reporter;
+		static ExtentTest test;
+	   
+ 
 	
 	
 	@Test(description = "Bank Manager Opration Testing Started",priority = 8)

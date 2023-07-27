@@ -5,6 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 import baking_basePackage.user_oprations_customerLogin;
  
 
@@ -12,11 +15,12 @@ public class test_user_oprations extends test_launch_page {
 	
 	 
 	user_oprations_customerLogin u;
+	 static ExtentHtmlReporter reporter;
+		static ExtentTest test;
+	   
 	 
 	 
 	 
-	
-
 	
 	
 	@Test(description="Customer Login Oprations Testing",priority = 3)
@@ -110,9 +114,18 @@ public class test_user_oprations extends test_launch_page {
 		
 		
 	System.out.println("Client account all oprational Testing done successfully for xyz Bank Application");
+	
+	
+	
+	
+	 
 		
 		
 		
+	 		
+	
+	
+	
 	}
 	
 	
